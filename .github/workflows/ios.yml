@@ -26,7 +26,7 @@ jobs:
 
       - name: Build IPA for iOS
         run: |
-          flet build ipa --module-name app --yes --no-codesign
+          flet build ipa --module-name app --yes
 
       - name: Upload iOS Artifact
         uses: actions/upload-artifact@v4
